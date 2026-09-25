@@ -1,0 +1,29 @@
+.category-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.75rem;
+  border-top: 1px solid var(--color-line);
+  border-bottom: 1px solid var(--color-line);
+  padding-block: 1.1rem;
+}
+
+.category-filter__button {
+  background: transparent;
+  border: none;
+  padding: 0;
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+  border-bottom: 1px solid transparent;
+  padding-bottom: 3px;
+  transition: color var(--transition), border-color var(--transition);
+}
+
+.category-filter__button:hover {
+  color: var(--color-text);
+}
+
+.category-filter__button.is-active {
+  color: var(--color-accent);
+  border-bottom-color: var(--color-accent);
+}

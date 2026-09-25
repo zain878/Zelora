@@ -1,0 +1,33 @@
+/* Zelorà brand colors
+   Edit this file to change the site's color palette in one place. */
+:root {
+  /* Main surfaces */
+  --color-bg: #f7f0e7;
+  --color-bg-soft: #f1e7dc;
+  --color-bg-deep: #241720;
+
+  /* Typography */
+  --color-text: #2a2025;
+  --color-text-inverse: #fdf7ee;
+  --color-text-muted: #74666e;
+  --color-text-muted-inverse: #b9a9b1;
+
+  /* Zelorà brand accents */
+  --color-accent: #8f0b54;
+  --color-accent-dark: #6f063f;
+  --color-accent-brand: #ad0268;
+  --color-accent-soft: #cda7b8;
+
+  /* Borders and muted UI */
+  --color-line: #dccbd3;
+  --color-line-inverse: #4a3742;
+
+  /* Typography */
+  --font-serif: 'Cormorant Garamond', 'Times New Roman', serif;
+  --font-sans: 'Work Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  /* Layout */
+  --max-width: 1240px;
+  --space-section: clamp(4rem, 8vw, 7rem);
+  --transition: 220ms ease;
+}

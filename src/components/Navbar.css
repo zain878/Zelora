@@ -1,0 +1,91 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background-color: var(--color-bg);
+  border-bottom: 1px solid var(--color-line);
+}
+
+.navbar__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 76px;
+}
+
+.navbar__wordmark {
+  font-family: var(--font-serif);
+  font-size: 2.6rem;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.navbar__links ul {
+  display: flex;
+  gap: 2.25rem;
+}
+
+.navbar__links a {
+  font-size: 0.95rem;
+  color: var(--color-text);
+  padding-bottom: 4px;
+  border-bottom: 1px solid transparent;
+  transition: border-color var(--transition), color var(--transition);
+}
+
+.navbar__links a:hover {
+  color: var(--color-accent);
+  border-bottom-color: var(--color-accent);
+}
+
+.navbar__toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 32px;
+  height: 32px;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.navbar__toggle span {
+  display: block;
+  height: 1px;
+  background-color: var(--color-text);
+  width: 100%;
+}
+
+.navbar__mobile {
+  display: none;
+  border-top: 1px solid var(--color-line);
+  background-color: var(--color-bg);
+}
+
+.navbar__mobile ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar__mobile a {
+  display: block;
+  padding: 1rem clamp(1.25rem, 4vw, 2.5rem);
+  font-size: 1rem;
+  border-bottom: 1px solid var(--color-line);
+}
+
+@media (max-width: 768px) {
+  .navbar__links {
+    display: none;
+  }
+
+  .navbar__toggle {
+    display: flex;
+  }
+
+  .navbar__mobile.is-open {
+    display: block;
+  }
+}

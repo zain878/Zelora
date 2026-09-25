@@ -1,0 +1,15 @@
+.shop {
+  padding-block: var(--space-section);
+}
+
+.shop__header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-width: 60ch;
+  margin-bottom: 2.5rem;
+}
+
+.shop__grid {
+  margin-top: 2.5rem;
+}
