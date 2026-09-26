@@ -46,28 +46,6 @@ const products = [
     featured: false,
   },
   {
-    id: 3,
-    name: 'Ivory Veil Gown',
-    category: 'Bridal',
-    price: '$1,180',
-    image: 'https://placehold.co/700x900/efe9dc/262220?text=Bridal',
-    description:
-      'A floor-length gown in silk-blend crepe with a softly draped neckline, designed to hold its shape through a full day of wear.',
-    available: true,
-    featured: true,
-  },
-  {
-    id: 4,
-    name: 'Lace Bridal Robe',
-    category: 'Bridal',
-    price: '$180',
-    image: 'https://placehold.co/700x900/e6dfd0/262220?text=Bridal',
-    description:
-      'A lightweight robe in French lace, made for the morning of — easy to move in, with a hand-finished trim.',
-    available: false,
-    featured: false,
-  },
-  {
     id: 5,
     name: 'Linen Day Set',
     category: 'Casual',
@@ -89,28 +67,7 @@ const products = [
     available: true,
     featured: false,
   },
-  {
-    id: 7,
-    name: 'Amara Hoops',
-    category: 'Jewelry',
-    price: '$85',
-    image: 'https://placehold.co/700x900/ded1bd/262220?text=Jewelry',
-    description:
-      'Hand-finished brass hoops with a light gold wash, sized to wear daily without weighing on the ear.',
-    available: true,
-    featured: true,
-  },
-  {
-    id: 8,
-    name: 'Pearl Drop Necklace',
-    category: 'Jewelry',
-    price: '$120',
-    image: 'https://placehold.co/700x900/d4c6ae/262220?text=Jewelry',
-    description:
-      'A single freshwater pearl on a fine gold-filled chain, sized to sit just above the collarbone.',
-    available: true,
-    featured: false,
-  },
+
 ]
 
 export default products

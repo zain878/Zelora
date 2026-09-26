@@ -1,6 +1,6 @@
 import './CategoryFilter.css'
 
-const categories = ['All', 'Fashion', 'Bridal', 'Casual', 'Jewelry']
+const categories = ['All', 'Fashion', 'Traditional', 'Casual','Sketches']
 
 function CategoryFilter({ active, onChange }) {
   return (
